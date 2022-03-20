@@ -9,5 +9,8 @@ router.get('/', (req, res) => {
 router.get('/instagram', (req, res) => {
     res.sendFile(__path + '/views/instagram.html')
 })
+router.get('/tes', (req, res) => {
+    res.sendFile(__path + '/views/tes.html')
+})
 
 module.exports = router
